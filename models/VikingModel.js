@@ -9,11 +9,12 @@ const vikingSchema = new Schema({
     
     familyName: {
         type: String,
-    required: true,
+        required: true,
+    
     },
     
-    strength: Number,
-    weapon: String,
+       strength: Number,
+       weapon: String,
     
     });
 

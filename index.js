@@ -1,5 +1,5 @@
 //Make sure to require your model so you can connect to the DB
-const { VikingModel } = require("./models/VikingModel");
+const VikingModel = require("./models/VikingModel");
 //This line of code connects to the Database
 require("./db");
 /*mongoose
@@ -47,7 +47,7 @@ const updateViking = async()=>{
             {new:true}
         );
             
-    console.log("Viking updated", updatedViking);
+    console.log("Viking updated", updateViking);
 } catch (err){
     console.log(err);
 }
